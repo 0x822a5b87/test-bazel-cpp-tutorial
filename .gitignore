@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+.clwb
+bazel-bin
+bazel-out
+bazel-stage*
+bazel-testlogs
+
+cmake-build-debug
