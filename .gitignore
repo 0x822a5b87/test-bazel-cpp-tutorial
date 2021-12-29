@@ -39,3 +39,4 @@ bazel-testlogs
 bazel-*
 
 cmake-build-debug
+.gdb_history
