@@ -13,7 +13,7 @@ http_archive(
     build_file_content = """
 cc_library(
     name = "zlib",
-    srcs = glob(["*.c", "*.h"]),
+    srcs = glob(include=["*.c", "*.h"]),
     includes = ["."],
     visibility = ["//visibility:public"],
 )
